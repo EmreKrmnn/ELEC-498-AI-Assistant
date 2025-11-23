@@ -10,7 +10,7 @@ Open docker desktop and ensure docker engine is running
 
 In the terminal run: 
 
-cd "C:\Users\brand\OneDrive\Desktop\ELEC490\ELEC-498-AI-Assistant"
+cd "C:\Users\your-path-to-repo\ELEC-498-AI-Assistant"
 
 docker build -t elec-498-ai-assistant:latest .
 
