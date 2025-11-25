@@ -1,9 +1,8 @@
-from Database_Code.Database_Pull import Ingest_data
+from Database_Code.ingest_data import load_swebench, transform_dataset, debug_print_example
 
 
 def main(): 
-    Ingest_data()
-
+    debug_print_example()
 
 
 
