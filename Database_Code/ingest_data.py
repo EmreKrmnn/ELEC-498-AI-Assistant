@@ -4,6 +4,7 @@ from pgvector.psycopg2 import register_vector
 from psycopg2.extras import Json
 from datetime import datetime
 import json
+import os
 
 # connects the postgresql database to this codebase 
 def connection():
